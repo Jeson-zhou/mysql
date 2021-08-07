@@ -16,7 +16,7 @@ type user struct {
 	name string
 }
 
-// 事务示例
+//  事务示例
 func transactionDemo() {
 	tx, err := db.Begin()
 	if err != nil {
